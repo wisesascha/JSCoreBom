@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "Artem Yarulin" => "artem.yarulin@fessguid.com" }
   s.platform      = :ios, "7.0"
+  s.platform      = :osx, "10.10"
   s.source        = { :git => "https://github.com/artemyarulin/JSCoreBom.git", :tag => "1.1.2" }
   s.source_files  = "JSCoreBom/JSCoreBom.{h,m}", "JSCoreBom/Modules/*"
   s.public_header_files = "JSCoreBom/JSCoreBom.h"
